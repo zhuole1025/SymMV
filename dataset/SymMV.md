@@ -1,5 +1,7 @@
 # SymMV Dataset
 
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
 The SymMV dataset consists of annotations and musical representations corresponding to various music video URLs.
 
 ## Dataset Structure
@@ -31,3 +33,7 @@ SymMV/
 - `chord/`: This directory contains the chord annotations corresponding to each music video. The chord files have a `.chord` extension.
 
 - `midi/`: This directory houses the MIDI representations for each music video. The MIDI files have a `.midi` extension.
+
+## License
+
+This dataset is licensed under the `CC BY-NC-SA` License. Please ensure you understand the licensing terms associated with this dataset before use. 
