@@ -3,7 +3,7 @@
 
 [[Paper]](https://arxiv.org/abs/2211.11248)
 
- The dataset has been released, see the dataset folder.
+The SymMV dataset is released **[here](https://github.com/zhuole1025/SymMV/tree/main/dataset)**.
 
 Our code will be released later~
 
