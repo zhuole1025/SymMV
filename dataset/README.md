@@ -12,27 +12,27 @@ SymMV/
 ├── SymMV.csv
 │
 ├── chord/
-│   ├── [filename1].chord
-│   ├── [filename2].chord
+│   ├── [filename1].txt
+│   ├── [filename2].txt
 │   └── ...
 │
 └── midi/
-    ├── [filename1].midi
-    ├── [filename2].midi
+    ├── [filename1].mid
+    ├── [filename2].mid
     └── ...
 ```
 
 ## Files & Directories Description:
 
-- `SymMV.csv`: A tab-separated CSV file containing the following columns:
+- `SymMV.csv`: A **tab-separated** CSV file containing the following columns:
   - `index`: Unique identifier for each entry.
   - `youtube_url`: URL link to the music video.
   - `tonality`: Tonality of the corresponding music video.
-  - `shazam_id`: An ID related to the Shazam platform. This ID can be used to search for corresponding song lyrics and metadata using the [shazamio](https://github.com/bogdanoff/shazamio) library.(e.g. `shazamio.shazam.track_about(shazam_id)`)
+  - `shazam_id`: An ID related to the Shazam platform. This ID can be used to search for corresponding song lyrics and metadata using the [shazamio](https://github.com/bogdanoff/shazamio) library.(e.g. using `shazamio.shazam.track_about(shazam_id)`)
 
-- `chord/`: This directory contains the chord annotations corresponding to each music video. The chord files have a `.chord` extension.
+- `chord/`: This directory contains the chord annotations corresponding to each music video. The chord files have a `.txt` extension. Each line of the chord file is divided into three sections: `[start ticks]`, `[end ticks]`, and `[chord type]`, serving as annotations.
 
-- `midi/`: This directory houses the MIDI representations for each music video. The MIDI files have a `.midi` extension.
+- `midi/`: This directory houses the MIDI representations for each music video. The MIDI files have a `.mid` extension.
 
 ## License
 
